@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: url("https://images.pexels.com/photos/6238050/pexels-photo-6238050.jpeg")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 40%;
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 5px #d7263d;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.conteudo-jogo:hover {
+  transition-duration: 0.5s;
+  background: rgba(0, 0, 0);
+  box-shadow: 0 0 10px #68c5db;
+}
+
+/* Títulos e textos */
+h2,
+p {
+  color: white;
+}
+
+/* Estrutura do questionário */
+.questionario {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 70%;
+  max-width: 70%;
+}
+
+/* Área de conteúdo */
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  gap: 20px;
+}
+
+/* Estilo da pergunta */
+.pergunta {
+  font-weight: 600;
+  color: white;
+}
+
+/* Progresso da pergunta */
+.progresso {
+  text-align: end;
+  font-size: small;
+  font-weight: 500;
+  color: white;
+}
+
+/* Área das respostas */
+.respostas {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Botões de resposta */
+.botao-resposta {
+  width: 100%;
+  height: 2.5rem;
+  text-align: start;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #ff1b7b;
+  color: white;
+}
+
+.botao-resposta:hover {
+  transition-duration: 0.7s;
+  height: 3rem;
+  border-radius: 15px;
+  background: #0197f6;
+  font-weight: 600;
+}
+
+/* Tela de fim do jogo */
+.fim {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fim span {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
