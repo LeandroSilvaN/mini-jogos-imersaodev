@@ -5,7 +5,7 @@ Criado 5 mini jogos com o foco em JavaScript por meio da semana de Imersão Dev 
 ![imersao](https://github.com/user-attachments/assets/5af55b8d-e64e-462b-b010-70fcc9218f10)
 
 ### Os 5 jogos são:
-- Conversor de Wons
+- <a href="arena-de-batalha-z/src/index.html">Conversor de Wons</a>
 - Pedra, Papel ou Tesoura
 - Porta Misteriosa
 - Arena de Batalha
