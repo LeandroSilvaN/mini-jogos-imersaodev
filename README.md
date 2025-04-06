@@ -4,13 +4,16 @@ Criado 5 mini jogos com o foco em JavaScript por meio da semana de Imersão Dev 
 
 ![imersao](https://github.com/user-attachments/assets/5af55b8d-e64e-462b-b010-70fcc9218f10)
 
-### Os 5 jogos são:
-- <a href="arena-de-batalha-z/src/index.html">Conversor de Wons</a>
-- Pedra, Papel ou Tesoura
-- Porta Misteriosa
-- Arena de Batalha
-- Perguntas Geniais
+
+### Os jogos desenvolvidos:
+
+- <a href="conversor-de-wons/dist/index.html">Conversor de Wons</a>
+- <a href="pedra-papel-e-tesoura/dist/index.html">Pedra, Papel ou Tesoura</a>
+- <a href="porta-misteriosa/dist/index.html">Porta Misteriosa</a>
+- <a href="arena-de-batalha-z/dist/index.html">Arena de Batalha</a>
+- <a href="perguntas-geniais/dist/index.html">Perguntas Geniais</a>
+
 
 ![p,p ou t](https://github.com/user-attachments/assets/e31f4a8c-3add-46b6-9d2e-27cc9afba74c)
 
- Meu LinkedIn: https://www.linkedin.com/in/leandro-silva-do-nascimento/
+<a href="https://www.linkedin.com/in/leandro-silva-do-nascimento">Meu LinkedIn<a/>
